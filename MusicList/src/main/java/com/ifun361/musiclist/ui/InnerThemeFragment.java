@@ -394,11 +394,11 @@ public class InnerThemeFragment extends LazyFragment {
 	}*/
     private void initCoverImage() {
     mCoverView.setImageURI(Uri.parse(ApiConstants.URL_THEME_LIST_COVER+themesLists.getThemeId()+"/"+themesLists.getThemeId()+"_cover_2.jpg"));
-        /*Bitmap bitmap1 = ((BitmapDrawable) mCoverView.getDrawable()).getBitmap();
+        Bitmap bitmap1 = ((BitmapDrawable) mCoverView.getDrawable()).getBitmap();
         Bitmap bitmap2 = bitmap1.copy(bitmap1.getConfig(), true);
         mBlurToggleUtils = new BlurToggleUtils(mContext, bitmap2,
                  mBlurCoverView);
-        mBackImageVisiable = true;*/
+        mBackImageVisiable = true;
     }
 
 	

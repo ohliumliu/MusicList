@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MusicList</string>
+    <string name="music_play">Play</string>
+    <string name="music_pause">Pause</string>
+    <string name="music_stop">Stop</string>
+    <string name="network_error">"数据请求失败"</string>
+    <string name="network_error_retry">"网络好像有点问题哦\n点击重试"</string>
+    <string name="network_success_nodata">"暂无数据\n点击重试"</string>
+    <string name="exit_sys">"再按一次返回键退出应用"</string>
+
+</resources>
