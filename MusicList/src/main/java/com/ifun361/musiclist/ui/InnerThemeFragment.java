@@ -38,6 +38,7 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.FailReason;
 import com.nostra13.universalimageloader.core.listener.ImageLoadingListener;
+import com.nostra13.universalimageloader.core.listener.SimpleImageLoadingListener;
 
 public class InnerThemeFragment extends LazyFragment {
 	protected static final String TAG = "InnerThemeFragment";
@@ -154,26 +155,11 @@ public class InnerThemeFragment extends LazyFragment {
 		isPrepared = true;
 		mBackImageVisiable = false;
 		Log.i(TAG, "mBackImageVisiable:"+mBackImageVisiable);
-		//initImageloader();
 		lazyLoad();
 		super.onActivityCreated(savedInstanceState);
 	}
 
-	private void initImageloader() {
-		// 图片初始化
-		imageLoader = ImageLoader.getInstance();
-		options = new DisplayImageOptions.Builder()
-				.showImageOnLoading(R.drawable.ic_launcher) // 设置图片下载期间显示的图片
-				.showImageForEmptyUri(R.drawable.ic_launcher) // 设置图片Uri为空或是错误的时候显示的图片
-				.showImageOnFail(R.drawable.ic_launcher) // 设置图片加载或解码过程中发生错误显示的图片
-				.cacheInMemory(true) // 设置下载的图片是否缓存在内存中
-				.cacheOnDisk(true) // 设置下载的图片是否缓存在SD卡中
-				.bitmapConfig(Bitmap.Config.RGB_565) // 设置图片的解码类型
-				.considerExifParams(true)
-				.build(); // 创建配置过得DisplayImageOption对象
-		
-	}	
-	
+
 	public void setContentView() {
 		long firstTime = System.nanoTime();
 		//控件初始化
@@ -280,29 +266,7 @@ public class InnerThemeFragment extends LazyFragment {
 				R.id.frag_theme_info_text1);
 			
 			
-		/*// 图片初始化
-		imageLoader = ImageLoader.getInstance();
-		options = new DisplayImageOptions.Builder()
-				.showImageOnLoading(R.drawable.ic_launcher) // 设置图片下载期间显示的图片
-				.showImageForEmptyUri(R.drawable.ic_launcher) // 设置图片Uri为空或是错误的时候显示的图片
-				.showImageOnFail(R.drawable.ic_launcher) // 设置图片加载或解码过程中发生错误显示的图片
-				.cacheInMemory(true) // 设置下载的图片是否缓存在内存中
-				.cacheOnDisk(true) // 设置下载的图片是否缓存在SD卡中
-				.bitmapConfig(Bitmap.Config.RGB_565) // 设置图片的解码类型
-				.build(); // 创建配置过得DisplayImageOption对象
-*/		
 
-		// 设置具体参数(适配参数需要更改)
-		//imageLoader.init(ImageLoaderConfiguration.createDefault(mContext));
-	
-		
-	/*	mTitleText.setText(themesLists.getName());
-		Log.i(TAG+"mTitleText+themesLists.getName()", themesLists.getName());
-		mCountText.setText(themesLists.getPlaylistCount().toString());
-		mInfoText.setText(themesLists.getIntro());*/
-		
-		
-	//	((BaseFragmentActivity)mContext).setTitleViewCenterText(themesLists.getName());
 		Log.i(TAG+"themesLists.getName()", themesLists.getName());
 		
 		long endTime = System.nanoTime();
@@ -350,58 +314,26 @@ public class InnerThemeFragment extends LazyFragment {
 		mCountText.setText(themesLists.getPlaylistCount().toString());
 		mInfoText.setText(themesLists.getIntro());
 	}
-//TODO 原图片处理方式
-	/*private void initCoverImage() {
-		Log.i(TAG, "initCoverImage-------------------");
-	imageLoader.displayImage(ApiConstants.URL_THEME_LIST_COVER+themesLists.getThemeId()+"/"+themesLists.getThemeId()+"_cover_2.jpg",mCoverView,new ImageLoadingListener() {
-			
-			@Override
-			public void onLoadingStarted(String imageUri, View view) {
-				//mCoverView.setImageResource(R.drawable.ic_launcher);
-				
-			}
-			
-			@Override
-			public void onLoadingFailed(String imageUri, View view,
-					FailReason failReason) {
-				Resources res=getResources();    
-				Bitmap bmp=BitmapFactory.decodeResource(res, R.drawable.ic_launcher);   
-				mBlurToggleUtils = new BlurToggleUtils(mContext, bmp,
-						mCoverView, mBlurCoverView);
-				mBackImageVisiable = true;
-				
-				
-			}
-			
-			@Override
-			public void onLoadingComplete(String imageUri, View view, Bitmap loadedImage) {
-				//mCoverView.setImageBitmap(loadedImage);
-				//mCoverView.setScaleType(ScaleType.FIT_XY);
-				//Bitmap bitmap = loadedImage.copy(loadedImage.getConfig(), true);
-				compressImg = new CompressImg();
-				Bitmap comp = compressImg.comp(loadedImage);
-				//模糊初始化
-				mBlurToggleUtils = new BlurToggleUtils(mContext, comp,
-						mCoverView, mBlurCoverView);
-				mBackImageVisiable = true;
-			}
-			
-			@Override
-			public void onLoadingCancelled(String imageUri, View view) {
-				
-			}
-		});
-	}*/
+
+
     private void initCoverImage() {
     mCoverView.setImageURI(Uri.parse(ApiConstants.URL_THEME_LIST_COVER+themesLists.getThemeId()+"/"+themesLists.getThemeId()+"_cover_2.jpg"));
-        Bitmap bitmap1 = ((BitmapDrawable) mCoverView.getDrawable()).getBitmap();
-        Bitmap bitmap2 = bitmap1.copy(bitmap1.getConfig(), true);
-        mBlurToggleUtils = new BlurToggleUtils(mContext, bitmap2,
-                 mBlurCoverView);
-        mBackImageVisiable = true;
+
+        imageLoader.loadImage(ApiConstants.URL_THEME_LIST_COVER + themesLists.getThemeId() + "/" + themesLists.getThemeId() + "_cover_2.jpg", new SimpleImageLoadingListener(){
+            @Override
+            public void onLoadingComplete(String imageUri, View view, Bitmap loadedImage) {
+                super.onLoadingComplete(imageUri, view, loadedImage);
+                Bitmap bitmap2 = loadedImage.copy(loadedImage.getConfig(), true);
+                mBlurToggleUtils = new BlurToggleUtils(mContext, bitmap2,
+                        mBlurCoverView);
+                mBackImageVisiable = true;
+            }
+        });
+
+
     }
 
-	
+
 	@Override
 	public void onPause() {
 		super.onPause();
@@ -416,13 +348,13 @@ public class InnerThemeFragment extends LazyFragment {
 		//imageLoader.stop();
 		imageLoader.cancelDisplayTask(mCoverView);
 	}
-	
+
 	@Override
 	public void onDestroy() {
 		Log.i(TAG, "onDestroy");
 		super.onDestroy();
 	}
-	
+
 	@Override
 	public void onDetach() {
 		Log.i(TAG, "onDetach");
@@ -434,9 +366,9 @@ public class InnerThemeFragment extends LazyFragment {
 		 if(!isPrepared || !isVisible) {
 	            return;
 	        }
+        initData();
 		initCoverImage();
-		initData();
+
 	}
 
 }
-	

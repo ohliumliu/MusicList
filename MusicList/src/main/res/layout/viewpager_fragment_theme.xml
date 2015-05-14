@@ -64,7 +64,6 @@
                     android:layout_marginRight="15dp"
                     android:gravity="center"
                     android:singleLine="true"
-                    android:text="Sweaty"
                     android:textColor="#f1f1f1"
                     android:textSize="36sp"
                     android:textStyle="bold" />
@@ -76,7 +75,6 @@
                     android:drawableLeft="@drawable/ic_music"
                     android:gravity="center"
                     android:singleLine="true"
-                    android:text=" x 3"
                     android:textColor="#f1f1f1"
                     android:textSize="16sp" />
             </LinearLayout>
@@ -88,9 +86,8 @@
                 android:layout_below="@id/frag_theme_info_title_layout"
                 android:layout_marginRight="15dp"
                 android:gravity="left|top"
-                android:text="loading……"
                 android:textColor="#f1f1f1"
-                android:textSize="16sp" 
+                android:textSize="16sp"
                 />
         </RelativeLayout>
     </com.ifun361.musiclist.widget.EventScrollView>

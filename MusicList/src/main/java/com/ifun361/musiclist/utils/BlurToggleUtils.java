@@ -88,7 +88,7 @@ public class BlurToggleUtils {
 		setAlpha(mBlurView, slideOffset);
 	}
 	
-	
+
 
 	public void setBlurImage() {
 		final Bitmap blurred = blurBitmap(mContext, mSource, DEFAULT_RADIUS);
@@ -113,6 +113,7 @@ public class BlurToggleUtils {
 				mBlurView.setVisibility(View.VISIBLE);
 				mBlurView.setImageBitmap(null);
 				mBlurView.setImageBitmap(blurred);
+                ((View) mBlurView).setAlpha(0);
 			}
 		});
 	}
