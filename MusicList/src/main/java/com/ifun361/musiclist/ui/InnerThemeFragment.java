@@ -188,7 +188,7 @@ public class InnerThemeFragment extends LazyFragment {
 		//scrollView
 		mScrollView = (EventScrollView) getView().findViewById(
 				R.id.frag_theme_scrollView1);
-		/*//等绘制好了之后测量高度
+		//等绘制好了之后测量高度
 		ViewTreeObserver viewTreeObserver = mScrollView.getViewTreeObserver();
 		viewTreeObserver.addOnGlobalLayoutListener(new OnGlobalLayoutListener() {
 			
@@ -208,8 +208,8 @@ public class InnerThemeFragment extends LazyFragment {
 					mInfoText.setPadding(0, 0, 0,(height+500-heightChild));
 				}
 			}
-		});*/
-		
+		});
+
 		mScrollView.setOnTouchListener(new View.OnTouchListener() {
 			//TODO scrollView位移位置
 			
@@ -264,8 +264,8 @@ public class InnerThemeFragment extends LazyFragment {
 				R.id.frag_theme_info_count1);
 		mInfoText = (TextView) getView().findViewById(
 				R.id.frag_theme_info_text1);
-			
-			
+
+        initData();
 
 		Log.i(TAG+"themesLists.getName()", themesLists.getName());
 		
@@ -288,7 +288,7 @@ public class InnerThemeFragment extends LazyFragment {
 	
 	private void initData() {
 		//等绘制好了之后测量高度
-				ViewTreeObserver viewTreeObserver = mScrollView.getViewTreeObserver();
+				/*ViewTreeObserver viewTreeObserver = mScrollView.getViewTreeObserver();
 				viewTreeObserver.addOnGlobalLayoutListener(new OnGlobalLayoutListener() {
 					
 					@Override
@@ -307,7 +307,7 @@ public class InnerThemeFragment extends LazyFragment {
 							mInfoText.setPadding(0, 0, 0,(height+500-heightChild));
 						}
 					}
-				});
+				});*/
 		
 		mTitleText.setText(themesLists.getName());
 		Log.i(TAG+"mTitleText+themesLists.getName()", themesLists.getName());
@@ -366,7 +366,7 @@ public class InnerThemeFragment extends LazyFragment {
 		 if(!isPrepared || !isVisible) {
 	            return;
 	        }
-        initData();
+        //initData();
 		initCoverImage();
 
 	}

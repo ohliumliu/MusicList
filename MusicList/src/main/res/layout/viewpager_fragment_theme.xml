@@ -32,7 +32,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="@dimen/base_title_height"
-        android:scrollbars="none" >
+        android:scrollbars="none"
+        android:fillViewport="false">
 
         <RelativeLayout
             android:id="@+id/frag_theme_info_layout"
@@ -66,7 +67,9 @@
                     android:singleLine="true"
                     android:textColor="#f1f1f1"
                     android:textSize="36sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:text="Sweety"
+                    />
 
                 <TextView
                     android:id="@+id/frag_theme_info_count1"
@@ -76,7 +79,9 @@
                     android:gravity="center"
                     android:singleLine="true"
                     android:textColor="#f1f1f1"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:text="3"
+                    />
             </LinearLayout>
 
             <TextView
@@ -88,6 +93,7 @@
                 android:gravity="left|top"
                 android:textColor="#f1f1f1"
                 android:textSize="16sp"
+                android:text="loading……"
                 />
         </RelativeLayout>
     </com.ifun361.musiclist.widget.EventScrollView>

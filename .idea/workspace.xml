@@ -737,9 +737,12 @@
       <file leaf-file-name="InnerThemeFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/InnerThemeFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.344828" vertical-offset="1741" max-vertical-offset="7062">
-              <caret line="146" column="51" selection-start-line="146" selection-start-column="51" selection-end-line="146" selection-end-column="51" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1782" max-vertical-offset="7128">
+              <caret line="146" column="55" selection-start-line="146" selection-start-column="55" selection-end-line="146" selection-end-column="55" />
+              <folding>
+                <element signature="e#9739#10220#0" expanded="true" />
+                <element signature="e#10209#10210#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -750,50 +753,88 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5363276" vertical-offset="1310" max-vertical-offset="2244">
-              <caret line="78" column="44" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.8600509" vertical-offset="1128" max-vertical-offset="2376">
+              <caret line="82" column="35" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ic_big_play.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MusicList/src/main/res/drawable-xhdpi/ic_big_play.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LazyFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/LazyFragment.java">
+      <file leaf-file-name="ThemeFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/ThemeFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="1166">
-              <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="4554">
+              <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlurToggleUtils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/utils/BlurToggleUtils.java">
+      <file leaf-file-name="ThemeCoverAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/adapter/ThemeCoverAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="2904">
-              <caret line="128" column="9" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
-              <folding>
-                <element signature="e#1037#1119#0" expanded="true" />
-                <element signature="e#1113#1114#0" expanded="true" />
-                <element signature="e#2104#2105#0" expanded="true" />
-                <element signature="e#2143#2144#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1738">
+              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="View.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-21/android/view/View.java">
+      <file leaf-file-name="SimpleDraweeView.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/MusicList/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.2.0/classes.jar!/com/facebook/drawee/view/SimpleDraweeView.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="223018" max-vertical-offset="450208">
-              <caret line="10437" column="16" selection-start-line="10437" selection-start-column="16" selection-end-line="10437" selection-end-column="16" />
+            <state vertical-scroll-proportion="-19.64" vertical-offset="59" max-vertical-offset="748">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractDraweeControllerBuilder.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/MusicList/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.2.0/classes.jar!/com/facebook/drawee/controller/AbstractDraweeControllerBuilder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2464">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PipelineDraweeControllerBuilder.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/MusicList/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.2.0/classes.jar!/com/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="528">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageRequest.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/MusicList/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.2.0/classes.jar!/com/facebook/imagepipeline/request/ImageRequest.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.16" vertical-offset="233" max-vertical-offset="1936">
+              <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageRequestBuilder.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/MusicList/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.2.0/classes.jar!/com/facebook/imagepipeline/request/ImageRequestBuilder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.52" vertical-offset="268" max-vertical-offset="1760">
+              <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Uri.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-21/android/net/Uri.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="8228" max-vertical-offset="48092">
+              <caret line="428" column="0" selection-start-line="428" selection-start-column="0" selection-end-line="428" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2745,8 +2786,8 @@
         <option value="$PROJECT_DIR$/MusicList/build.gradle" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/constants/ApiConstants.java" />
-        <option value="$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/InnerThemeFragment.java" />
         <option value="$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/utils/BlurToggleUtils.java" />
+        <option value="$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/InnerThemeFragment.java" />
         <option value="$PROJECT_DIR$/MusicList/src/main/res/layout/viewpager_fragment_theme.xml" />
       </list>
     </option>
@@ -3669,7 +3710,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11565978" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.3298887" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="751" y="545" width="1258" height="400" />
@@ -3703,176 +3744,24 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/InnerThemeFragment.java</url>
-          <line>326</line>
+          <line>319</line>
           <properties />
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/InnerThemeFragment.java</url>
-          <line>328</line>
+          <line>321</line>
           <properties />
-          <option name="timeStamp" value="11" />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="12" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/constants/ApiConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="1012">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/utils/BlurToggleUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1364" max-vertical-offset="3520">
-          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/res/layout/viewpager_fragment_theme.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="2310">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="616" max-vertical-offset="858">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/music/application/BaseApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="1892">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/api/HttpUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1870">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/MusicListApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1430" max-vertical-offset="5742">
-          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/InnerThemeFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7898" max-vertical-offset="8932">
-          <caret line="400" column="36" selection-start-line="400" selection-start-column="36" selection-end-line="400" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/constants/ApiConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="1012">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/utils/BlurToggleUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1364" max-vertical-offset="3520">
-          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/res/layout/viewpager_fragment_theme.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="2310">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="616" max-vertical-offset="858">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/music/application/BaseApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="1892">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import-summary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2332">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import-summary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2332">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/music/application/BaseApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1650">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/MusicListApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="4884">
-          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="858">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/InnerThemeFragmentNew.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2640">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/SplashActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="924">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/BaseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
@@ -3886,13 +3775,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="613" max-vertical-offset="12518">
           <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/controller/MyThemeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33292383" vertical-offset="15" max-vertical-offset="1672">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -3937,22 +3819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/constants/ApiConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1012">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/ThemeFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1254" max-vertical-offset="4554">
-          <caret line="227" column="34" selection-start-line="227" selection-start-column="34" selection-end-line="227" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3762" max-vertical-offset="4576">
@@ -3974,10 +3840,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="8536" max-vertical-offset="11968">
           <caret line="423" column="0" selection-start-line="423" selection-start-column="0" selection-end-line="423" selection-end-column="0" />
           <folding>
-            <element signature="e#13265#13266#0" expanded="true" />
-            <element signature="e#13297#13298#0" expanded="true" />
-            <element signature="e#13492#13493#0" expanded="true" />
-            <element signature="e#13532#13533#0" expanded="true" />
+            <element signature="e#13265#13266#0" expanded="false" />
+            <element signature="e#13297#13298#0" expanded="false" />
+            <element signature="e#13492#13493#0" expanded="false" />
+            <element signature="e#13532#13533#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4006,45 +3872,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-21/android/os/Looper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33287483" vertical-offset="2398" max-vertical-offset="6050">
-          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-21/android/os/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="1654" max-vertical-offset="16434">
-          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-17/android/view/Choreographer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33287483" vertical-offset="15356" max-vertical-offset="17380">
-          <caret line="747" column="0" selection-start-line="747" selection-start-column="0" selection-end-line="747" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-21/android/view/ViewRootImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33287483" vertical-offset="126588" max-vertical-offset="147246">
           <caret line="5905" column="0" selection-start-line="5905" selection-start-column="0" selection-end-line="5905" selection-end-column="0" />
           <folding>
-            <element signature="e#244770#244797#0" expanded="true" />
+            <element signature="e#244770#244797#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-21/android/view/ViewGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="92228" max-vertical-offset="157388">
-          <caret line="4297" column="0" selection-start-line="4297" selection-start-column="0" selection-end-line="4297" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4053,7 +3887,7 @@
         <state vertical-scroll-proportion="0.33287483" vertical-offset="4180" max-vertical-offset="18832">
           <caret line="243" column="0" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
           <folding>
-            <element signature="e#6222#6223#0" expanded="true" />
+            <element signature="e#6222#6223#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4062,33 +3896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33287483" vertical-offset="7414" max-vertical-offset="12848">
           <caret line="387" column="0" selection-start-line="387" selection-start-column="0" selection-end-line="387" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-17/android/view/ViewRootImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33287483" vertical-offset="18414" max-vertical-offset="117700">
-          <caret line="926" column="0" selection-start-line="926" selection-start-column="0" selection-end-line="926" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#225339#0" expanded="true" />
-            <element signature="e#36660#36661#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-21/android/view/Choreographer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33287483" vertical-offset="10934" max-vertical-offset="17666">
-          <caret line="543" column="0" selection-start-line="543" selection-start-column="0" selection-end-line="543" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-21/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="223018" max-vertical-offset="450208">
-          <caret line="10437" column="16" selection-start-line="10437" selection-start-column="16" selection-end-line="10437" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -4106,25 +3913,403 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MusicList/src/main/res/drawable-xhdpi/ic_big_play.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/widget/EventScrollView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13513513" vertical-offset="198" max-vertical-offset="1936">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/controller/MyThemeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="279" max-vertical-offset="1672">
+          <caret line="47" column="64" selection-start-line="47" selection-start-column="64" selection-end-line="47" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/constants/ApiConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="1012">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicList/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="726" max-vertical-offset="1606">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/adt-bundle-windows-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/21.0.3/support-v4-21.0.3-sources.jar!/android/support/v4/app/Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="35882" max-vertical-offset="40898">
+          <caret line="1801" column="0" selection-start-line="1801" selection-start-column="0" selection-end-line="1801" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#78204#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4105#4106#0" expanded="false" />
+            <element signature="e#4129#4130#0" expanded="false" />
+            <element signature="e#4771#4772#0" expanded="false" />
+            <element signature="e#4823#4824#0" expanded="false" />
+            <element signature="e#4884#4885#0" expanded="false" />
+            <element signature="e#4938#4939#0" expanded="false" />
+            <element signature="e#5808#5826#0" expanded="false" />
+            <element signature="e#11303#11304#0" expanded="false" />
+            <element signature="e#11341#11342#0" expanded="false" />
+            <element signature="e#11614#11615#0" expanded="false" />
+            <element signature="e#11646#11647#0" expanded="false" />
+            <element signature="e#11725#11726#0" expanded="false" />
+            <element signature="e#11773#11774#0" expanded="false" />
+            <element signature="e#11958#11959#0" expanded="false" />
+            <element signature="e#12021#12022#0" expanded="false" />
+            <element signature="e#12075#12076#0" expanded="false" />
+            <element signature="e#12134#12135#0" expanded="false" />
+            <element signature="e#12429#12430#0" expanded="false" />
+            <element signature="e#12470#12471#0" expanded="false" />
+            <element signature="e#17643#17644#0" expanded="false" />
+            <element signature="e#17687#17688#0" expanded="false" />
+            <element signature="e#17803#17804#0" expanded="false" />
+            <element signature="e#17841#17842#0" expanded="false" />
+            <element signature="e#17949#17950#0" expanded="false" />
+            <element signature="e#17988#17989#0" expanded="false" />
+            <element signature="e#18762#18763#0" expanded="false" />
+            <element signature="e#18796#18797#0" expanded="false" />
+            <element signature="e#18907#18908#0" expanded="false" />
+            <element signature="e#18934#18935#0" expanded="false" />
+            <element signature="e#19612#19613#0" expanded="false" />
+            <element signature="e#19645#19646#0" expanded="false" />
+            <element signature="e#21117#21118#0" expanded="false" />
+            <element signature="e#21147#21148#0" expanded="false" />
+            <element signature="e#21283#21284#0" expanded="false" />
+            <element signature="e#21324#21325#0" expanded="false" />
+            <element signature="e#21462#21463#0" expanded="false" />
+            <element signature="e#21494#21495#0" expanded="false" />
+            <element signature="e#22334#22335#0" expanded="false" />
+            <element signature="e#22388#22389#0" expanded="false" />
+            <element signature="e#23499#23500#0" expanded="false" />
+            <element signature="e#23538#23539#0" expanded="false" />
+            <element signature="e#24495#24496#0" expanded="false" />
+            <element signature="e#24533#24534#0" expanded="false" />
+            <element signature="e#24658#24659#0" expanded="false" />
+            <element signature="e#24708#24709#0" expanded="false" />
+            <element signature="e#24968#24969#0" expanded="false" />
+            <element signature="e#25000#25001#0" expanded="false" />
+            <element signature="e#25287#25288#0" expanded="false" />
+            <element signature="e#25319#25320#0" expanded="false" />
+            <element signature="e#25751#25752#0" expanded="false" />
+            <element signature="e#25783#25784#0" expanded="false" />
+            <element signature="e#25992#25993#0" expanded="false" />
+            <element signature="e#26023#26024#0" expanded="false" />
+            <element signature="e#26816#26817#0" expanded="false" />
+            <element signature="e#26846#26847#0" expanded="false" />
+            <element signature="e#26908#26909#0" expanded="false" />
+            <element signature="e#26939#26940#0" expanded="false" />
+            <element signature="e#27000#27001#0" expanded="false" />
+            <element signature="e#27035#27036#0" expanded="false" />
+            <element signature="e#28475#28476#0" expanded="false" />
+            <element signature="e#28513#28514#0" expanded="false" />
+            <element signature="e#30933#30934#0" expanded="false" />
+            <element signature="e#30972#30973#0" expanded="false" />
+            <element signature="e#36149#36150#0" expanded="false" />
+            <element signature="e#36179#36180#0" expanded="false" />
+            <element signature="e#36333#36334#0" expanded="false" />
+            <element signature="e#36360#36361#0" expanded="false" />
+            <element signature="e#37113#37114#0" expanded="false" />
+            <element signature="e#37143#37144#0" expanded="false" />
+            <element signature="e#38280#38281#0" expanded="false" />
+            <element signature="e#38307#38308#0" expanded="false" />
+            <element signature="e#39292#39293#0" expanded="false" />
+            <element signature="e#39320#39321#0" expanded="false" />
+            <element signature="e#40116#40117#0" expanded="false" />
+            <element signature="e#40146#40147#0" expanded="false" />
+            <element signature="e#40757#40758#0" expanded="false" />
+            <element signature="e#40787#40788#0" expanded="false" />
+            <element signature="e#41687#41688#0" expanded="false" />
+            <element signature="e#41717#41718#0" expanded="false" />
+            <element signature="e#42927#42928#0" expanded="false" />
+            <element signature="e#42957#42958#0" expanded="false" />
+            <element signature="e#43185#43186#0" expanded="false" />
+            <element signature="e#43215#43216#0" expanded="false" />
+            <element signature="e#43440#43441#0" expanded="false" />
+            <element signature="e#43470#43471#0" expanded="false" />
+            <element signature="e#43507#43508#0" expanded="false" />
+            <element signature="e#43537#43538#0" expanded="false" />
+            <element signature="e#44099#44100#0" expanded="false" />
+            <element signature="e#44129#44130#0" expanded="false" />
+            <element signature="e#45847#45848#0" expanded="false" />
+            <element signature="e#45877#45878#0" expanded="false" />
+            <element signature="e#48382#48383#0" expanded="false" />
+            <element signature="e#48410#48411#0" expanded="false" />
+            <element signature="e#50294#50295#0" expanded="false" />
+            <element signature="e#50351#50352#0" expanded="false" />
+            <element signature="e#50692#50693#0" expanded="false" />
+            <element signature="e#50749#50750#0" expanded="false" />
+            <element signature="e#51658#51659#0" expanded="false" />
+            <element signature="e#51686#51687#0" expanded="false" />
+            <element signature="e#53316#53317#0" expanded="false" />
+            <element signature="e#53361#53362#0" expanded="false" />
+            <element signature="e#53914#53915#0" expanded="false" />
+            <element signature="e#53953#53954#0" expanded="false" />
+            <element signature="e#54976#54977#0" expanded="false" />
+            <element signature="e#55022#55023#0" expanded="false" />
+            <element signature="e#56829#56830#0" expanded="false" />
+            <element signature="e#56873#56874#0" expanded="false" />
+            <element signature="e#57647#57648#0" expanded="false" />
+            <element signature="e#57685#57686#0" expanded="false" />
+            <element signature="e#58632#58633#0" expanded="false" />
+            <element signature="e#58679#58680#0" expanded="false" />
+            <element signature="e#60796#60797#0" expanded="false" />
+            <element signature="e#60848#60849#0" expanded="false" />
+            <element signature="e#70033#70034#0" expanded="false" />
+            <element signature="e#70087#70088#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/adt-bundle-windows-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/21.0.3/support-v4-21.0.3-sources.jar!/android/support/v4/app/BackStackRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="14982" max-vertical-offset="30734">
+          <caret line="743" column="0" selection-start-line="743" selection-start-column="0" selection-end-line="743" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/adt-bundle-windows-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/21.0.3/support-v4-21.0.3-sources.jar!/android/support/v4/app/FragmentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9020" max-vertical-offset="46794">
+          <caret line="485" column="0" selection-start-line="485" selection-start-column="0" selection-end-line="485" selection-end-column="0" />
+          <folding>
+            <element signature="e#18705#18706#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-21/android/widget/RelativeLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8734" max-vertical-offset="38962">
+          <caret line="456" column="0" selection-start-line="456" selection-start-column="0" selection-end-line="456" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-21/android/widget/LinearLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="11374" max-vertical-offset="40898">
+          <caret line="591" column="0" selection-start-line="591" selection-start-column="0" selection-end-line="591" selection-end-column="0" />
+          <folding>
+            <element signature="e#56963#56964#0" expanded="false" />
+            <element signature="e#56987#56988#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-21/android/view/ViewGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="110220" max-vertical-offset="157388">
+          <caret line="5127" column="0" selection-start-line="5127" selection-start-column="0" selection-end-line="5127" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-21/android/widget/FrameLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5676" max-vertical-offset="16214">
+          <caret line="310" column="0" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-17/com/android/internal/policy/impl/PhoneWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51458" max-vertical-offset="77374">
+          <caret line="2466" column="0" selection-start-line="2466" selection-start-column="0" selection-end-line="2466" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-21/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="354134" max-vertical-offset="450208">
+          <caret line="16519" column="0" selection-start-line="16519" selection-start-column="0" selection-end-line="16519" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-17/android/view/ViewRootImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="117656">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#225339#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/LazyFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="1166">
-          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="1210">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#1683#1684#0" expanded="true" />
+            <element signature="e#1700#1701#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/adt-bundle-windows-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/21.0.3/support-v4-21.0.3-sources.jar!/android/support/v4/app/FragmentStatePagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2618" max-vertical-offset="4576">
+          <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/adt-bundle-windows-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/21.0.3/support-v4-21.0.3-sources.jar!/android/support/v4/view/ViewPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3982" max-vertical-offset="61996">
+          <caret line="249" column="0" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
+          <folding>
+            <element signature="e#9007#9138#0" expanded="false" />
+            <element signature="e#9131#9132#0" expanded="false" />
+            <element signature="e#33590#33591#0" expanded="false" />
+            <element signature="e#33624#33625#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-21/android/view/Choreographer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="10934" max-vertical-offset="17666">
+          <caret line="543" column="0" selection-start-line="543" selection-start-column="0" selection-end-line="543" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-17/android/view/Choreographer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15356" max-vertical-offset="17380">
+          <caret line="747" column="0" selection-start-line="747" selection-start-column="0" selection-end-line="747" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-21/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1650" max-vertical-offset="16434">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-21/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2398" max-vertical-offset="6050">
+          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/model/ThemesList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1192" max-vertical-offset="2354">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <element signature="e#2025#2026#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-17/android/net/Uri.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="19866" max-vertical-offset="47278">
+          <caret line="1028" column="0" selection-start-line="1028" selection-start-column="0" selection-end-line="1028" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-21/android/net/Uri.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8228" max-vertical-offset="48092">
+          <caret line="428" column="0" selection-start-line="428" selection-start-column="0" selection-end-line="428" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/MusicList/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.2.0/classes.jar!/com/facebook/drawee/controller/AbstractDraweeControllerBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2464">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/MusicList/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.2.0/classes.jar!/com/facebook/imagepipeline/request/ImageRequestBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.52" vertical-offset="268" max-vertical-offset="1760">
+          <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/MusicList/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.2.0/classes.jar!/com/facebook/imagepipeline/request/ImageRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.16" vertical-offset="233" max-vertical-offset="1936">
+          <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/MusicList/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.2.0/classes.jar!/com/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="528">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/MusicList/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.2.0/classes.jar!/com/facebook/drawee/view/SimpleDraweeView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.64" vertical-offset="59" max-vertical-offset="748">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/ThemeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="4554">
+          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/adapter/ThemeCoverAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1738">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/InnerThemeFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.344828" vertical-offset="1741" max-vertical-offset="7062">
-          <caret line="146" column="51" selection-start-line="146" selection-start-column="51" selection-end-line="146" selection-end-column="51" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1782" max-vertical-offset="7128">
+          <caret line="146" column="55" selection-start-line="146" selection-start-column="55" selection-end-line="146" selection-end-column="55" />
+          <folding>
+            <element signature="e#9739#10220#0" expanded="true" />
+            <element signature="e#10209#10210#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/res/drawable-xhdpi/ic_big_play.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MusicList/src/main/res/layout/viewpager_fragment_theme.xml">
@@ -4132,8 +4317,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5363276" vertical-offset="1310" max-vertical-offset="2244">
-          <caret line="78" column="44" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.8600509" vertical-offset="1128" max-vertical-offset="2376">
+          <caret line="82" column="35" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
           <folding />
         </state>
       </provider>
