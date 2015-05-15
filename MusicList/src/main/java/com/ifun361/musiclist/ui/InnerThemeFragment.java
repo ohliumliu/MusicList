@@ -234,7 +234,7 @@ public class InnerThemeFragment extends LazyFragment {
 							);
 					mHandler.sendEmptyMessageDelayed(1, 150);
 					Log.i("handler test-----", "false or true");
-					if(y>40)
+					if(y>30)
 						mPlayerView.setVisibility(View.INVISIBLE);
 					break;
 				}
@@ -243,7 +243,7 @@ public class InnerThemeFragment extends LazyFragment {
 					mScrollView.getParent().requestDisallowInterceptTouchEvent(
 							true);
 					mHandler.sendEmptyMessageDelayed(2, 150);
-					if(y<=40)
+					if(y<=30)
 						mPlayerView.setVisibility(View.VISIBLE);
 					break;
 				}
@@ -251,12 +251,14 @@ public class InnerThemeFragment extends LazyFragment {
 					break;
 				}
 				default:
+
 				}
 
 				return false;
 
 			}
 		});
+
 
 		mTitleText = (TextView) getView().findViewById(
 				R.id.frag_theme_info_title1);
