@@ -7,6 +7,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
+import android.view.View;
 import android.widget.ScrollView;
 
 /**
@@ -19,24 +20,27 @@ import android.widget.ScrollView;
  * @since JDK1.6
  */
 public class EventScrollView extends ScrollView {
-	
-	// 滑动距离及坐标  
-    private float xDistance, yDistance, xLast, yLast;  
-    private GestureDetector gestureDetector;
-    
-    
-	public EventScrollView(Context context) {
-		super(context);
-	}
 
-	public EventScrollView(Context context, AttributeSet attrs) {
-		super(context, attrs);
-	}
-	
-	
-	public void setGestureDetector(GestureDetector gestureDetector){
-		this.gestureDetector = gestureDetector;
-	}
+
+    private OnBorderListener onBorderListener;
+    private View contentView;
+    // 滑动距离及坐标
+    private float xDistance, yDistance, xLast, yLast;
+    private GestureDetector gestureDetector;
+
+
+    public EventScrollView(Context context) {
+        super(context);
+    }
+
+    public EventScrollView(Context context, AttributeSet attrs) {
+        super(context, attrs);
+    }
+
+
+    public void setGestureDetector(GestureDetector gestureDetector) {
+        this.gestureDetector = gestureDetector;
+    }
 	/*@Override
 	public boolean onInterceptTouchEvent(MotionEvent ev) {
 		switch (ev.getAction()) {
@@ -87,6 +91,45 @@ public class EventScrollView extends ScrollView {
     @Override
     protected void onScrollChanged(int l, int t, int oldl, int oldt) {
         super.onScrollChanged(l, t, oldl, oldt);
+        doOnBorderListener();
 
+    }
+
+    public void setOnBorderListener(final OnBorderListener onBorderListener) {
+        this.onBorderListener = onBorderListener;
+        if (onBorderListener == null) {
+            return;
+        }
+
+        if (contentView == null) {
+            contentView = getChildAt(0);
+        }
+    }
+
+    private void doOnBorderListener() {
+        if (contentView != null && contentView.getMeasuredHeight() <= getScrollY() + getHeight()) {
+            if (onBorderListener != null) {
+                onBorderListener.onBottom();
+            }
+            }else if (getScrollY() == 0) {
+            if (onBorderListener != null) {
+                onBorderListener.onTop();
+            }
+
+        }
+
+
+    }
+    public static interface OnBorderListener {
+
+        /**
+         * Called when scroll to bottom
+         */
+        public void onBottom();
+
+        /**
+         * Called when scroll to top
+         */
+        public void onTop();
     }
 }

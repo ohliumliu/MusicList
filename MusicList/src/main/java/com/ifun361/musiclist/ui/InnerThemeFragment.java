@@ -244,7 +244,7 @@ public class InnerThemeFragment extends LazyFragment {
 							true);
 					mHandler.sendEmptyMessageDelayed(2, 150);
 					if(y<=30)
-						mPlayerView.setVisibility(View.VISIBLE);
+						//mPlayerView.setVisibility(View.VISIBLE);
 					break;
 				}
 				case MotionEvent.ACTION_CANCEL: {
@@ -259,6 +259,18 @@ public class InnerThemeFragment extends LazyFragment {
 			}
 		});
 
+       mScrollView.setOnBorderListener(new EventScrollView.OnBorderListener() {
+           @Override
+           public void onBottom() {
+               //mPlayerView.setVisibility(View.INVISIBLE);
+
+           }
+
+           @Override
+           public void onTop() {
+               mPlayerView.setVisibility(View.VISIBLE);
+           }
+       });
 
 		mTitleText = (TextView) getView().findViewById(
 				R.id.frag_theme_info_title1);
