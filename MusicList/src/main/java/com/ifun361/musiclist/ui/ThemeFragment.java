@@ -129,7 +129,7 @@ public class ThemeFragment extends BaseFragment implements ThemeCallback  {
 				R.layout.fragment_mytheme, null);
 		//TODO viewPager 
 		mViewPager = (FriendlyViewpager) mFragmentLayout.findViewById(R.id.vp_theme);
-		//mViewPager.setGestureDetector(new GestureDetector(new CommonGestureListener()));		
+		//mViewPager.setGestureDetector(new GestureDetector(new CommonGestureListener()));
 		return super.onCreateView(inflater, container, savedInstanceState);
 	}
 
@@ -213,6 +213,13 @@ public class ThemeFragment extends BaseFragment implements ThemeCallback  {
 		mViewPager.setAdapter(adapter);
 		pageListener = new PageListener(getActivity(),themesLists);
 		mViewPager.setOnPageChangeListener(pageListener);
+        mViewPager.setOnPageScrolledLisenter(new FriendlyViewpager.OnPageScrolledLisenter() {
+            @Override
+            public void scrolled(float offset) {
+                InnerThemeFragment.scrollChange(offset);
+            }
+        });
+
 		//mViewPager.setOffscreenPageLimit(21);
 		//int currentItem = mViewPager.getCurrentItem();
 		//((BaseFragmentActivity)getActivity()).setTitleViewCenterText(themesLists.get(currentItem).getName());

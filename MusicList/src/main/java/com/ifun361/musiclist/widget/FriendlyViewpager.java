@@ -3,11 +3,16 @@ package com.ifun361.musiclist.widget;
 import android.content.Context;
 import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.GestureDetector;
 import android.view.View;
 
 public class FriendlyViewpager extends ViewPager {
 	private static final String TAG = "FriendlyViewpager";
+
+    private OnPageScrolledLisenter onPageScrolledLisenter;
+    private float offset;
+
 	// 滑动距离及坐标  
     private float xDistance, yDistance, xLast, yLast;  
 	private GestureDetector gestureDetector;
@@ -135,4 +140,29 @@ public class FriendlyViewpager extends ViewPager {
 	
 		return super.onTouchEvent(ev);
 	}*/
+
+    @Override
+    protected void onPageScrolled(int position, float offset, int offsetPixels) {
+        super.onPageScrolled(position, offset, offsetPixels);
+        Log.i(TAG, position + "----" + offset + "----" + offsetPixels + "");
+        doOnPageScrolled(offset);
+    }
+
+    public void setOnPageScrolledLisenter(final OnPageScrolledLisenter onPageScrolledLisenter) {
+        this.onPageScrolledLisenter = onPageScrolledLisenter;
+        //this.offset = offset;
+        if(onPageScrolledLisenter == null)
+            return;
+    }
+
+    private void doOnPageScrolled(float offset) {
+
+        if(onPageScrolledLisenter!=null){
+            onPageScrolledLisenter.scrolled(offset);
+        }
+    }
+
+    public interface OnPageScrolledLisenter{
+        public  void scrolled(float offset);
+    }
 }
