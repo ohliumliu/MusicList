@@ -1,6 +1,9 @@
 package com.ifun361.musiclist.ui;
 
+import android.content.BroadcastReceiver;
 import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -24,6 +27,7 @@ import android.widget.ImageView;
 import android.widget.ImageView.ScaleType;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.facebook.drawee.view.SimpleDraweeView;
 import com.ifun361.musiclist.R;
@@ -67,6 +71,7 @@ public class InnerThemeFragment extends LazyFragment {
 	
 	protected boolean mBackImageVisiable;
 
+    private static final String ACTION = "scrolled";
 	 // 标志位，标志已经初始化完成。
     private boolean isPrepared;
 	
@@ -327,7 +332,30 @@ public class InnerThemeFragment extends LazyFragment {
 		Log.i(TAG+"mTitleText+themesLists.getName()", themesLists.getName());
 		mCountText.setText(themesLists.getPlaylistCount().toString());
 		mInfoText.setText(themesLists.getIntro());
+        registerBroadCast();
 	}
+
+
+    private BroadcastReceiver myReceiver = new BroadcastReceiver() {
+
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            Toast.makeText(context, "myReceiver receive", Toast.LENGTH_SHORT)
+                    .show();
+            Bundle bundle = intent.getExtras();
+            float offset = (float)bundle.get("scroll");
+            scrollChange(offset);
+        }
+
+    };
+    public void registerBroadCast(){
+    IntentFilter filter = new IntentFilter();
+    filter.addAction(ACTION);
+    filter.setPriority(Integer.MAX_VALUE);
+    mContext.registerReceiver(myReceiver, filter);
+    }
+
+
 
     public void scrollChange(float offset){
         if (offset < -1) { // [-Infinity,-1)
@@ -412,5 +440,6 @@ public class InnerThemeFragment extends LazyFragment {
 		initCoverImage();
 
 	}
+
 
 }

@@ -762,7 +762,7 @@
       <file leaf-file-name="FriendlyViewpager.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/widget/FriendlyViewpager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43213987" vertical-offset="2517" max-vertical-offset="3718">
+            <state vertical-scroll-proportion="2.8435113" vertical-offset="801" max-vertical-offset="3718">
               <caret line="143" column="1" selection-start-line="142" selection-start-column="0" selection-end-line="143" selection-end-column="1" />
               <folding />
             </state>
@@ -772,42 +772,21 @@
       <file leaf-file-name="ThemeFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/ThemeFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.586206" vertical-offset="3507" max-vertical-offset="4708">
-              <caret line="215" column="77" selection-start-line="215" selection-start-column="77" selection-end-line="215" selection-end-column="77" />
+            <state vertical-scroll-proportion="-15.620689" vertical-offset="3617" max-vertical-offset="4840">
+              <caret line="226" column="20" selection-start-line="226" selection-start-column="20" selection-end-line="226" selection-end-column="20" />
               <folding>
-                <element signature="e#6315#6316#0" expanded="true" />
+                <element signature="e#6251#6646#0" expanded="true" />
+                <element signature="e#6635#6636#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/BaseFragment.java">
+      <file leaf-file-name="ThemeCoverAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/adapter/ThemeCoverAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="7128">
-              <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageListener.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/widget/PageListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="880" max-vertical-offset="1694">
-              <caret line="70" column="59" selection-start-line="70" selection-start-column="59" selection-end-line="70" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseFragmentActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/BaseFragmentActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1232" max-vertical-offset="2046">
-              <caret line="100" column="16" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="508" max-vertical-offset="1738">
+              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -816,13 +795,16 @@
       <file leaf-file-name="InnerThemeFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/InnerThemeFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.655172" vertical-offset="5698" max-vertical-offset="8030">
-              <caret line="331" column="16" selection-start-line="331" selection-start-column="16" selection-end-line="331" selection-end-column="16" />
+            <state vertical-scroll-proportion="-30.344828" vertical-offset="6358" max-vertical-offset="9504">
+              <caret line="345" column="55" selection-start-line="345" selection-start-column="55" selection-end-line="345" selection-end-column="55" />
               <folding>
-                <element signature="e#3900#3901#0" expanded="true" />
-                <element signature="e#3938#3939#0" expanded="true" />
-                <element signature="e#7979#7980#0" expanded="true" />
-                <element signature="e#8048#8049#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#4092#4093#0" expanded="true" />
+                <element signature="e#4130#4131#0" expanded="true" />
+                <element signature="e#8171#8172#0" expanded="true" />
+                <element signature="e#8240#8241#0" expanded="true" />
+                <element signature="e#10031#10401#0" expanded="true" />
+                <element signature="e#10393#10394#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2790,9 +2772,9 @@
         <option value="$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/utils/BlurToggleUtils.java" />
         <option value="$PROJECT_DIR$/MusicList/src/main/res/layout/viewpager_fragment_theme.xml" />
         <option value="$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/widget/EventScrollView.java" />
-        <option value="$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/InnerThemeFragment.java" />
-        <option value="$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/ThemeFragment.java" />
         <option value="$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/widget/FriendlyViewpager.java" />
+        <option value="$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/ThemeFragment.java" />
+        <option value="$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/InnerThemeFragment.java" />
       </list>
     </option>
   </component>
@@ -3718,7 +3700,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11565978" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.3298887" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="751" y="545" width="1258" height="400" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3750,13 +3732,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/InnerThemeFragment.java</url>
-          <line>361</line>
+          <line>389</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/InnerThemeFragment.java</url>
-          <line>363</line>
+          <line>391</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
@@ -4108,19 +4090,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/adapter/ThemeCoverAdapter.java">
+    <entry file="jar://$PROJECT_DIR$/MusicList/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.2.0/classes.jar!/com/facebook/drawee/view/SimpleDraweeView.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1738">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.14175257" vertical-offset="0" max-vertical-offset="776">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/widget/PageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1694">
+          <caret line="62" column="62" selection-start-line="62" selection-start-column="62" selection-end-line="62" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/BaseFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="2046">
+          <caret line="100" column="16" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/adt-bundle-windows-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/21.0.3/support-v4-21.0.3-sources.jar!/android/support/v4/app/Fragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.468059" vertical-offset="1335" max-vertical-offset="40898">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="2120" max-vertical-offset="40898">
           <caret line="166" column="13" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/BaseFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="7128">
+          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -4134,36 +4142,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/BaseFragment.java">
+    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/adapter/ThemeCoverAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6886">
-          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/widget/PageListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="880" max-vertical-offset="1694">
-          <caret line="70" column="59" selection-start-line="70" selection-start-column="59" selection-end-line="70" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="508" max-vertical-offset="1738">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/BaseFragmentActivity.java">
+    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/widget/EventScrollView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1232" max-vertical-offset="2046">
-          <caret line="100" column="16" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/MusicList/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.2.0/classes.jar!/com/facebook/drawee/view/SimpleDraweeView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14175257" vertical-offset="0" max-vertical-offset="776">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state vertical-scroll-proportion="-24.724138" vertical-offset="1571" max-vertical-offset="2838">
+          <caret line="115" column="41" selection-start-line="115" selection-start-column="41" selection-end-line="115" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -4179,40 +4169,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/widget/EventScrollView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.724138" vertical-offset="1571" max-vertical-offset="2838">
-          <caret line="115" column="41" selection-start-line="115" selection-start-column="41" selection-end-line="115" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/InnerThemeFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.655172" vertical-offset="5698" max-vertical-offset="8030">
-          <caret line="331" column="16" selection-start-line="331" selection-start-column="16" selection-end-line="331" selection-end-column="16" />
+        <state vertical-scroll-proportion="-30.344828" vertical-offset="6358" max-vertical-offset="9504">
+          <caret line="345" column="55" selection-start-line="345" selection-start-column="55" selection-end-line="345" selection-end-column="55" />
           <folding>
-            <element signature="e#3900#3901#0" expanded="true" />
-            <element signature="e#3938#3939#0" expanded="true" />
-            <element signature="e#7979#7980#0" expanded="true" />
-            <element signature="e#8048#8049#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#4092#4093#0" expanded="true" />
+            <element signature="e#4130#4131#0" expanded="true" />
+            <element signature="e#8171#8172#0" expanded="true" />
+            <element signature="e#8240#8241#0" expanded="true" />
+            <element signature="e#10031#10401#0" expanded="true" />
+            <element signature="e#10393#10394#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/ThemeFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.586206" vertical-offset="3507" max-vertical-offset="4708">
-          <caret line="215" column="77" selection-start-line="215" selection-start-column="77" selection-end-line="215" selection-end-column="77" />
+        <state vertical-scroll-proportion="-15.620689" vertical-offset="3617" max-vertical-offset="4840">
+          <caret line="226" column="20" selection-start-line="226" selection-start-column="20" selection-end-line="226" selection-end-column="20" />
           <folding>
-            <element signature="e#6315#6316#0" expanded="true" />
+            <element signature="e#6251#6646#0" expanded="true" />
+            <element signature="e#6635#6636#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/widget/FriendlyViewpager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43213987" vertical-offset="2517" max-vertical-offset="3718">
+        <state vertical-scroll-proportion="2.8435113" vertical-offset="801" max-vertical-offset="3718">
           <caret line="143" column="1" selection-start-line="142" selection-start-column="0" selection-end-line="143" selection-end-column="1" />
           <folding />
         </state>

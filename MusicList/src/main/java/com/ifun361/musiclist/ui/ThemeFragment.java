@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
+import android.content.Intent;
+import android.content.IntentFilter;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.os.Handler;
@@ -67,7 +69,9 @@ public class ThemeFragment extends BaseFragment implements ThemeCallback  {
 	
 	private PageListener pageListener;
 
-	private Handler mDataSetHandler = new Handler() {
+    private static final String ACTION = "scrolled";
+
+    private Handler mDataSetHandler = new Handler() {
 		@Override
 		public void handleMessage(Message msg) {
 			//int y = mScrollView.getScrollY();
@@ -216,7 +220,12 @@ public class ThemeFragment extends BaseFragment implements ThemeCallback  {
         mViewPager.setOnPageScrolledLisenter(new FriendlyViewpager.OnPageScrolledLisenter() {
             @Override
             public void scrolled(float offset) {
-                InnerThemeFragment.scrollChange(offset);
+                Intent intent = new Intent(ACTION);
+                Bundle bundle = new Bundle();
+                bundle.putFloat("scroll",offset);
+                intent.putExtras(bundle);
+                getActivity().sendBroadcast(intent);//发送广播事件
+
             }
         });
 
@@ -246,6 +255,5 @@ public class ThemeFragment extends BaseFragment implements ThemeCallback  {
 		List<ThemesList> themesListsDb = themesListDao.loadAll();
 		return (ArrayList<ThemesList>) themesListsDb;
 	}
-	
-	
+
 }
