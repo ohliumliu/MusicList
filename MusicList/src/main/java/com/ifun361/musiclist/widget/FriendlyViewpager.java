@@ -144,7 +144,7 @@ public class FriendlyViewpager extends ViewPager {
     @Override
     protected void onPageScrolled(int position, float offset, int offsetPixels) {
         super.onPageScrolled(position, offset, offsetPixels);
-        Log.i(TAG, position + "----" + offset + "----" + offsetPixels + "");
+        Log.i(TAG, position + "===" + offset + "===" + offsetPixels + "");
         doOnPageScrolled(offset);
     }
 

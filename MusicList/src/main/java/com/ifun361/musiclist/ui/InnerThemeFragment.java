@@ -340,8 +340,8 @@ public class InnerThemeFragment extends LazyFragment {
 
         @Override
         public void onReceive(Context context, Intent intent) {
-            Toast.makeText(context, "myReceiver receive", Toast.LENGTH_SHORT)
-                    .show();
+           // Toast.makeText(context, "myReceiver receive", Toast.LENGTH_SHORT)
+            //        .show();
             Bundle bundle = intent.getExtras();
             float offset = (float)bundle.get("scroll");
             scrollChange(offset);
@@ -361,16 +361,17 @@ public class InnerThemeFragment extends LazyFragment {
         if (offset < -1) { // [-Infinity,-1)
             // This page is way off-screen to the left.
             mInRelativeLayout.setAlpha(0);
-        } else if (offset <= 0) { // [-1,0]
+        } else if (-0.5<offset&&offset <= 0) { // [-1,0]
             // Use the default slide transition when
             // moving to the left page
             mInRelativeLayout.setAlpha(1);
             //view.setTranslationX(0);
             mInRelativeLayout.setScaleX(1);
             mInRelativeLayout.setScaleY(1);
-        } else if (offset <= 1) { // (0,1]
+        } else if (0<offset&&offset <=0.5) { // (0,1]
             // Fade the page out.
-            mInRelativeLayout.setAlpha(1 - offset);
+            mInRelativeLayout.setAlpha(1-offset*2);
+            mInRelativeLayout.setTranslationY(-(mScrollView.getChildAt(0).getHeight()*-(offset)));
             // Counteract the default slide transition
             //view.setTranslationX(pageWidth * -position);
             // Scale the page down (between MIN_SCALE and 1)
@@ -378,7 +379,12 @@ public class InnerThemeFragment extends LazyFragment {
                     * (1 - Math.abs(position));*/
             //mInRelativeLayout.setScaleX(scaleFactor);
             //mInRelativeLayout.setScaleY(scaleFactor);
-        } else { // (1,+Infinity]
+        }else if (0.5<offset&&offset <= 1) {
+            mInRelativeLayout.setAlpha(offset*2-1);
+            mInRelativeLayout.setTranslationY(-(mScrollView.getChildAt(0).getHeight()*-(1-offset)));
+        }
+
+            else { // (1,+Infinity]
             // This page is way off-screen to the right.
             mInRelativeLayout.setAlpha(0);
 
@@ -393,8 +399,8 @@ public class InnerThemeFragment extends LazyFragment {
             @Override
             public void onLoadingComplete(String imageUri, View view, Bitmap loadedImage) {
                 super.onLoadingComplete(imageUri, view, loadedImage);
-                Bitmap bitmap2 = loadedImage.copy(loadedImage.getConfig(), true);
-                mBlurToggleUtils = new BlurToggleUtils(mContext, bitmap2,
+                //Bitmap bitmap2 = loadedImage.copy(loadedImage.getConfig(), true);
+                mBlurToggleUtils = new BlurToggleUtils(mContext, loadedImage,
                         mBlurCoverView);
                 mBackImageVisiable = true;
             }

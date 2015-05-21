@@ -71,7 +71,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MusicList/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00012.9.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MusicList/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MusicList/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MusicList/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_cab_background_top_mtrl_alpha.9.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MusicList/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_cab_background_top_mtrl_alpha.9.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MusicList/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_cab_background_top_mtrl_alpha.9.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MusicList/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xxhdpi/abc_cab_background_top_mtrl_alpha.9.png" />
@@ -740,8 +739,8 @@
       <file leaf-file-name="EventScrollView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/widget/EventScrollView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.724138" vertical-offset="1571" max-vertical-offset="2838">
-              <caret line="115" column="41" selection-start-line="115" selection-start-column="41" selection-end-line="115" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1668" max-vertical-offset="2838">
+              <caret line="109" column="66" selection-start-line="109" selection-start-column="35" selection-end-line="109" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -759,11 +758,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FriendlyViewpager.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FriendlyViewpager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/widget/FriendlyViewpager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.8435113" vertical-offset="801" max-vertical-offset="3718">
-              <caret line="143" column="1" selection-start-line="142" selection-start-column="0" selection-end-line="143" selection-end-column="1" />
+            <state vertical-scroll-proportion="-15.172414" vertical-offset="2904" max-vertical-offset="3718">
+              <caret line="157" column="17" selection-start-line="157" selection-start-column="17" selection-end-line="157" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -772,10 +771,9 @@
       <file leaf-file-name="ThemeFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/ThemeFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.620689" vertical-offset="3617" max-vertical-offset="4840">
-              <caret line="226" column="20" selection-start-line="226" selection-start-column="20" selection-end-line="226" selection-end-column="20" />
+            <state vertical-scroll-proportion="-12.586206" vertical-offset="3551" max-vertical-offset="4840">
+              <caret line="219" column="74" selection-start-line="219" selection-start-column="74" selection-end-line="219" selection-end-column="74" />
               <folding>
-                <element signature="e#6251#6646#0" expanded="true" />
                 <element signature="e#6635#6636#0" expanded="true" />
               </folding>
             </state>
@@ -792,19 +790,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InnerThemeFragment.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="InnerThemeFragment.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/InnerThemeFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.344828" vertical-offset="6358" max-vertical-offset="9504">
-              <caret line="345" column="55" selection-start-line="345" selection-start-column="55" selection-end-line="345" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.81735754" vertical-offset="7421" max-vertical-offset="9636">
+              <caret line="382" column="49" selection-start-line="382" selection-start-column="49" selection-end-line="382" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4092#4093#0" expanded="true" />
                 <element signature="e#4130#4131#0" expanded="true" />
                 <element signature="e#8171#8172#0" expanded="true" />
                 <element signature="e#8240#8241#0" expanded="true" />
-                <element signature="e#10031#10401#0" expanded="true" />
-                <element signature="e#10393#10394#0" expanded="true" />
+                <element signature="e#10031#10405#0" expanded="true" />
+                <element signature="e#10397#10398#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2772,8 +2770,8 @@
         <option value="$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/utils/BlurToggleUtils.java" />
         <option value="$PROJECT_DIR$/MusicList/src/main/res/layout/viewpager_fragment_theme.xml" />
         <option value="$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/widget/EventScrollView.java" />
-        <option value="$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/widget/FriendlyViewpager.java" />
         <option value="$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/ThemeFragment.java" />
+        <option value="$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/widget/FriendlyViewpager.java" />
         <option value="$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/InnerThemeFragment.java" />
       </list>
     </option>
@@ -3413,7 +3411,7 @@
     <property name="recentsLimit" value="5" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="54d299ea" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_21_x86" />
     <property name="FullScreen" value="false" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="368" />
@@ -3684,14 +3682,14 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39952344" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33042097" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.669579" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33042097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33042097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3700,7 +3698,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11565978" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.3298887" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="751" y="545" width="1258" height="400" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3732,13 +3730,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/InnerThemeFragment.java</url>
-          <line>389</line>
+          <line>395</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/InnerThemeFragment.java</url>
-          <line>391</line>
+          <line>397</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
@@ -3926,14 +3924,6 @@
             <element signature="e#56963#56964#0" expanded="false" />
             <element signature="e#56987#56988#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-21/android/view/ViewGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="110220" max-vertical-offset="157388">
-          <caret line="5127" column="0" selection-start-line="5127" selection-start-column="0" selection-end-line="5127" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4132,6 +4122,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/adapter/ThemeCoverAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="508" max-vertical-offset="1738">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/LazyFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="1386">
@@ -4142,18 +4140,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/adapter/ThemeCoverAdapter.java">
+    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/ThemeFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="508" max-vertical-offset="1738">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state vertical-scroll-proportion="-12.586206" vertical-offset="3551" max-vertical-offset="4840">
+          <caret line="219" column="74" selection-start-line="219" selection-start-column="74" selection-end-line="219" selection-end-column="74" />
+          <folding>
+            <element signature="e#6635#6636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/widget/FriendlyViewpager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.172414" vertical-offset="2904" max-vertical-offset="3718">
+          <caret line="157" column="17" selection-start-line="157" selection-start-column="17" selection-end-line="157" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/adt-bundle-windows-x86_64-20140702/sdk/sources/android-21/android/view/ViewGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33292383" vertical-offset="115757" max-vertical-offset="157388">
+          <caret line="5388" column="16" selection-start-line="5388" selection-start-column="16" selection-end-line="5388" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/widget/EventScrollView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.724138" vertical-offset="1571" max-vertical-offset="2838">
-          <caret line="115" column="41" selection-start-line="115" selection-start-column="41" selection-end-line="115" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1668" max-vertical-offset="2838">
+          <caret line="109" column="66" selection-start-line="109" selection-start-column="35" selection-end-line="109" selection-end-column="66" />
           <folding />
         </state>
       </provider>
@@ -4171,36 +4187,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/InnerThemeFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.344828" vertical-offset="6358" max-vertical-offset="9504">
-          <caret line="345" column="55" selection-start-line="345" selection-start-column="55" selection-end-line="345" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.81735754" vertical-offset="7421" max-vertical-offset="9636">
+          <caret line="382" column="49" selection-start-line="382" selection-start-column="49" selection-end-line="382" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4092#4093#0" expanded="true" />
             <element signature="e#4130#4131#0" expanded="true" />
             <element signature="e#8171#8172#0" expanded="true" />
             <element signature="e#8240#8241#0" expanded="true" />
-            <element signature="e#10031#10401#0" expanded="true" />
-            <element signature="e#10393#10394#0" expanded="true" />
+            <element signature="e#10031#10405#0" expanded="true" />
+            <element signature="e#10397#10398#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/ui/ThemeFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.620689" vertical-offset="3617" max-vertical-offset="4840">
-          <caret line="226" column="20" selection-start-line="226" selection-start-column="20" selection-end-line="226" selection-end-column="20" />
-          <folding>
-            <element signature="e#6251#6646#0" expanded="true" />
-            <element signature="e#6635#6636#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusicList/src/main/java/com/ifun361/musiclist/widget/FriendlyViewpager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.8435113" vertical-offset="801" max-vertical-offset="3718">
-          <caret line="143" column="1" selection-start-line="142" selection-start-column="0" selection-end-line="143" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
