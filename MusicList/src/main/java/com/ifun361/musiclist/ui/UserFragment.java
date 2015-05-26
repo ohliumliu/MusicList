@@ -60,7 +60,7 @@ public class UserFragment extends BaseFragment {
 			Bundle savedInstanceState) {
 		mFragmentLayout = (RelativeLayout) inflater.inflate(
 				R.layout.fragment_user, null);
-		mFragmentLayout.setBackgroundResource(R.drawable.bg_sample_03);
+		//mFragmentLayout.setBackgroundResource(R.drawable.bg_sample_03);
 		return super.onCreateView(inflater, container, savedInstanceState);
 	}
 

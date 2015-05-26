@@ -9,5 +9,20 @@
     <string name="network_error_retry">"网络好像有点问题哦\n点击重试"</string>
     <string name="network_success_nodata">"暂无数据\n点击重试"</string>
     <string name="exit_sys">"再按一次返回键退出应用"</string>
+    <string name="user_title">更多</string>
+    <string name="clear_cache_text">清除缓存</string>
+    <string name="clear_download_data_text">清除下载数据</string>
+    <string name="clear_download_data_tip">一键清除所有用户已下载内容</string>
+    <string name="playback_setting_text">播放设置</string>
+    <string name="wifi_only_text">仅在Wi-Fi下播放/下载</string>
+    <string name="wifi_only_tip">防止2G/3G/4G播放/下载音乐</string>
+    <string name="clear_cache_data_text">清除缓存数据</string>
+    <string name="clear_cache_data_tip">清除文件，图片，音乐等临时文件</string>
+    <string name="misc_text">更多</string>
+    <string name="share_text">Share with friends</string>
+    <string name="about_us_text">关于我们</string>
+    <string name="feedback_text">意见反馈</string>
+    <string name="download_data_size">5M</string>
+    <string name="clear_cache_data_size">6M</string>
 
 </resources>

@@ -191,13 +191,26 @@ public class MainActivity extends BaseFragmentActivity implements
 		}
 		switch (tagIndex) {
 		case TAB_ZERO:
+			//TODO update title bar
 			break;
 		case TAB_ONE:
+			//TODO update title bar. not sure if thmemeId the right field to check in getCurrentTheme
+			ThemeFragment tf = (ThemeFragment)mFragments[tagIndex];
+			if (tf.isAdded()) {
+				super.setTitleViewDisplay(true, true, true);
+				super.setTitleViewCenterText(tf.getCurrentType());
+			}
 			break;
 		case TAB_TWO:
+			//TODO update title bar
 			break;
 		case TAB_THREE:
+			//change the title bar
+			super.setTitleViewDisplay(false, true, true);
+			super.setTitleViewCenterText(getText(R.string.user_title).toString());
 			break;
+
+
 		}
 	}
 

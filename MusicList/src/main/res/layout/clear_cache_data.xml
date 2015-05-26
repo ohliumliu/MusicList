@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="49dp">
+    <ImageView
+        android:id="@+id/clear_cache_data_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_like"/>
+    <TextView
+        android:id="@+id/clear_cache_data_text"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:text="@string/clear_cache_data_text"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/clear_cache_data_icon"
+        android:paddingTop="5dip"
+        android:textSize="17sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dip"
+        android:text="@string/clear_cache_data_tip"
+        android:layout_alignBottom="@+id/clear_cache_data_icon"
+        android:layout_toRightOf="@id/clear_cache_data_icon"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:textIsSelectable="true" />
+    <TextView
+        android:id="@+id/clear_cache_data_size"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/clear_cache_data_size"
+        android:layout_alignParentRight="true"
+        android:paddingRight="15dip"
+        android:gravity="center"/>
+</RelativeLayout>

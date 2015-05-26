@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff" >
+    android:alpha="90">
 
     <ImageView
         android:id="@+id/frag_user_imageview"
@@ -16,9 +16,160 @@
         android:layout_centerInParent="true"
         android:src="@drawable/ic_big_play" />
 
-    <TextView
-        android:id="@+id/frag_user_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:id="@+id/frag_user"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/base_title_height"
+        android:scrollbars="none">
+        <TextView
+            android:id="@+id/clear_cache"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/clear_cache_text"
+            android:textSize="12sp"
+            android:paddingLeft="24dp"
+            android:paddingBottom="5dp"
+            android:gravity="bottom"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:background="#f1f1f1"
+            android:layout_alignBottom="@+id/clear_cache"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            />
+        <include
+            android:id="@+id/clear_cache_data"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            layout="@layout/clear_cache_data"
+            android:layout_below="@+id/clear_cache"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:layout_marginLeft="24dp"
+            android:layout_below="@id/clear_cache_data"
+            android:background="#f1f1f1" />
 
+        <include
+            android:id="@+id/clear_download_data"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            layout="@layout/clear_download_data"
+            android:layout_below="@+id/clear_cache_data"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:background="#f1f1f1"
+            android:layout_below="@+id/clear_download_data"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/playback_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="12sp"
+            android:text="@string/playback_setting_text"
+            android:layout_below="@id/clear_download_data"
+            android:paddingLeft="24dp"
+            android:paddingBottom="5dp"
+            android:gravity="bottom" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:background="#f1f1f1"
+            android:layout_alignBottom="@+id/playback_setting"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <include
+            android:id="@+id/wifi_only"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            layout="@layout/wifi_only"
+            android:layout_below="@+id/playback_setting"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:background="#f1f1f1"
+            android:layout_below="@id/wifi_only"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/misc"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/misc_text"
+            android:layout_below="@id/wifi_only"
+            android:paddingLeft="24dp"
+            android:paddingBottom="5dp"
+            android:textSize="12sp"
+            android:gravity="bottom"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:background="#f1f1f1"
+            android:layout_alignBottom="@+id/misc"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/share"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:text="@string/share_text"
+            android:drawableLeft="@drawable/btn_like"
+            android:drawableRight="@drawable/btn_unlike"
+            android:layout_below="@+id/misc"
+            android:textSize="17sp"
+            android:paddingTop="16dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:background="#f1f1f1"
+            android:layout_marginLeft="24dp"
+            android:layout_alignBottom="@+id/share"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/feedback"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:text="@string/feedback_text"
+            android:drawableLeft="@drawable/btn_like"
+            android:drawableRight="@drawable/btn_unlike"
+            android:layout_below="@+id/share"
+            android:textSize="17sp"
+            android:paddingTop="16dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:background="#f1f1f1"
+            android:layout_alignBottom="@+id/feedback"
+            android:layout_marginLeft="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/about_us"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:text="@string/about_us_text"
+            android:drawableLeft="@drawable/btn_like"
+            android:drawableRight="@drawable/btn_unlike"
+            android:layout_below="@+id/feedback"
+            android:textSize="17sp"
+            android:paddingTop="16dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:background="#f1f1f1"
+            android:layout_below="@+id/about_us"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+    </RelativeLayout>
 </RelativeLayout>

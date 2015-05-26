@@ -12,6 +12,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,6 +30,7 @@ import com.ifun361.musiclist.db.DaoSession;
 import com.ifun361.musiclist.db.ThemesListDao;
 import com.ifun361.musiclist.model.ApiResult;
 import com.ifun361.musiclist.model.ThemesList;
+import com.ifun361.musiclist.model.Themesitems;
 import com.ifun361.musiclist.ui.adapter.ThemeCoverAdapter;
 import com.ifun361.musiclist.utils.BlurToggleUtils;
 import com.ifun361.musiclist.widget.FriendlyViewpager;
@@ -189,6 +191,27 @@ public class ThemeFragment extends BaseFragment implements ThemeCallback  {
 		}
 		setFragmentShowData();
 	}
+
+	public String getCurrentTitle(){
+		//TODO return the title of current theme
+		int currentItem = mViewPager.getCurrentItem();
+		//((BaseFragmentActivity)getActivity()).setTitleViewCenterText(themesLists.get(currentItem).getName());
+		return themesSummaries.get(currentItem).getName();
+	}
+
+
+	public String getCurrentType() {
+		//TODO return the type of current theme
+		ThemesList currentThemesList =  themesSummaries.get(mViewPager.getCurrentItem());
+		int currentTypeId = currentThemesList.targetObject.get(currentThemesList.getTargetId()).getType();
+		return PageListener.typedef.values()[currentTypeId].toString();
+	}
+
+
+
+
+
+
 
 	@Override
 	public void onGetTheme(ApiResult<ThemesList> result) {
