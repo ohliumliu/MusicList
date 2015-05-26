@@ -66,4 +66,5 @@ Use github.
     Choose git as the version control tool (Setting -> Version Control -> Change the setting in table)
 
 * Remote side: Set up github account in Android Studio (Setting -> Version Control -> GitHub)
-* Commit directory or file: right click -> Git -> Commit
+* Commit directory or file: right click -> Git -> Commit. This is a local commit.
+* Push commit to GitHub. VCS -> Git -> Push
