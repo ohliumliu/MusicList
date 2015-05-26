@@ -26,7 +26,11 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.ifun361.musiclist" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="6f185e75-71ad-4b62-8963-58a665d99a35" name="Default" comment="MusicList(not build)" />
+    <list default="true" readonly="true" id="6f185e75-71ad-4b62-8963-58a665d99a35" name="Default" comment="MusicList(not build)">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ms.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <list id="254c230e-f025-44f7-8a1b-762ad9c8f410" name="Rejected commit: Default" comment="MusicList(not build)" />
     <ignored path="MusicList.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -209,6 +213,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="true" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="tasksExpandState">
@@ -1901,7 +1908,7 @@
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder5" value="5" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="settings.editor.selected.configurable" value="gradle.compiler" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2492864" />
     <property name="SearchEverywhereHistoryKey" value="targetob&#9;FILE&#9;file:///home/yu/AndroidStudioProjects/MusicList/MusicList/src/main/java/com/ifun361/musiclist/model/TargetObject.java&#10;themessu&#9;PSI&#9;JAVA://com.ifun361.musiclist.ui.ThemeFragment#themesSummaries&#10;clear&#9;FILE&#9;file:///home/yu/AndroidStudioProjects/MusicList/MusicList/src/main/res/layout/clear_cache_data.xml&#10;tr&#9;FILE&#9;file:///home/yu/AndroidStudioProjects/MusicList/MusicList/src/main/res/values/strings.xml&#10;ear&#9;FILE&#9;file:///home/yu/AndroidStudioProjects/MusicList/MusicList/src/main/res/layout/clear_cache_data.xml&#10;title&#9;FILE&#9;file:///home/yu/AndroidStudioProjects/MusicList/MusicList/src/main/res/layout/top_title.xml&#10;activi&#9;FILE&#9;file:///home/yu/AndroidStudioProjects/MusicList/MusicList/src/main/res/layout/activity_main.xml&#10;string.&#9;FILE&#9;file:///home/yu/AndroidStudioProjects/MusicList/MusicList/src/main/res/values-zh/strings.xml&#10;clear_&#9;FILE&#9;file:///home/yu/AndroidStudioProjects/MusicList/MusicList/src/main/res/layout/clear_cache_data.xml&#10;user&#9;FILE&#9;file:///home/yu/AndroidStudioProjects/MusicList/MusicList/src/main/res/layout/fragment_user.xml&#10;getcurrent&#9;PSI&#9;JAVA://com.ifun361.musiclist.ui.ThemeFragment#getCurrentTitle&#10;userf&#9;FILE&#9;file:///home/yu/AndroidStudioProjects/MusicList/MusicList/src/main/java/com/ifun361/musiclist/ui/UserFragment.java&#10;targetObject&#9;PSI&#9;JAVA://com.ifun361.musiclist.model.ThemesList#targetObject&#10;th&#9;FILE&#9;file:///home/yu/AndroidStudioProjects/MusicList/MusicList/src/main/java/com/ifun361/musiclist/model/ThemesList.java&#10;the&#9;FILE&#9;file:///home/yu/AndroidStudioProjects/MusicList/MusicList/src/main/java/com/ifun361/musiclist/model/ThemesList.java&#10;tar&#9;PSI&#9;JAVA://com.ifun361.musiclist.model.TargetObject&#10;themes&#9;FILE&#9;file:///home/yu/AndroidStudioProjects/MusicList/MusicList/src/main/java/com/ifun361/musiclist/model/ThemesList.java&#10;themesit&#9;PSI&#9;JAVA://com.ifun361.musiclist.model.Themesitems&#10;URL&#9;PSI&#9;JAVA://com.ifun361.musiclist.constants.ApiConstants#URL_MUSIC_LIST&#10;targetO&#9;PSI&#9;JAVA://com.ifun361.musiclist.model.ThemesList#targetObject&#10;targ&#9;PSI&#9;JAVA://com.ifun361.musiclist.model.TargetObject&#10;typede&#9;PSI&#9;JAVA://com.ifun361.musiclist.widget.PageListener.typedef&#10;frien&#9;FILE&#9;file:///home/yu/AndroidStudioProjects/MusicList/MusicList/src/main/java/com/ifun361/musiclist/widget/FriendlyViewpager.java&#10;main&#9;FILE&#9;file:///home/yu/AndroidStudioProjects/MusicList/MusicList/src/main/java/com/ifun361/musiclist/ui/MainActivity.java" />
   </component>
@@ -2189,18 +2196,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1375" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4454477" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.49736643" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984064" sideWeight="0.49736643" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5026336" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.49736643" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.49736643" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22709164" sideWeight="0.49736643" order="13" side_tool="false" content_ui="tabs" />
@@ -2210,7 +2217,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981189" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981189" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.49134687" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.3298887" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="751" y="545" width="1258" height="400" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20730738" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
