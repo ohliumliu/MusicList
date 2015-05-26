@@ -58,7 +58,12 @@ Life cycle related issues
 * Fragment side: define an interface which demands a callback. set the interface to be the calling activity in `onAttach()`.
 * Call activity side: implements the interface defined in the fragment side.
 
-# Current job
+# Version control
+Use github.
 
-* Figure out how to control dimension
-* How to change title bar when current tab is changed.
+* Local side: Need to install git and let Android Studio be aware of the git command (Setting -> Version Control -> Git)
+
+    Choose git as the version control tool (Setting -> Version Control -> Change the setting in table)
+
+* Remote side: Set up github account in Android Studio (Setting -> Version Control -> GitHub)
+* Commit directory or file: right click -> Git -> Commit
