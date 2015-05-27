@@ -1,4 +1,5 @@
 # Music List
+# THIS IS ADDED IN DEV BRANCH
 包结构：
 
 UI：所有界面 （可以参看MainActivity的生命周期来去了解）
